@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Nueva Tierra</title>
+</head>
+<body>
+    <button onclick="MostrarMapas()" class="button">Mostrar mapas</button>
+    <script>
+        function MostrarMapas()
+        {
+            var menuMapas = document.getElementById("Mapas");
+            if(menuMapas.style.display === "none")
+            { 
+                menuMapas.style.display = "block";
+            }
+
+        }
+    </script>
+    <h1 id="Main">Nuevas Tierras</h1>
+     <p>Esto seria una explicacion tal noseque</p>
+     <hr>
+     
+      <nav id="Mapas" style="display: none;">
+         <h1>Mapas</h1>
+         <img src="Mapas/Mapa tierra del fuego sin nada.png" width="800" height="600"/>
+      </nav>
+</body>
+</html>
