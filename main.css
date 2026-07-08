@@ -1,0 +1,25 @@
+body
+{
+    background-color: rgb(66, 59, 49);
+}
+h1
+{  
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(199, 206, 212);
+}
+p
+{  
+    text-align: center;
+    width: 400;
+    margin: 0 auto;
+    color: rgb(199, 206, 212);
+}
+nav
+{
+  text-align: center;
+    width: 400;
+    margin: 0 auto;
+
+}
